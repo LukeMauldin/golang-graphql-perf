@@ -11,14 +11,104 @@ import (
 	"github.com/LukeMauldin/golang-graphql-perf/graph/model"
 )
 
-// CreateTodo is the resolver for the createTodo field.
-func (r *mutationResolver) CreateTodo(ctx context.Context, input model.NewTodo) (*model.Todo, error) {
-	panic(fmt.Errorf("not implemented: CreateTodo - createTodo"))
+// Create0 is the resolver for the create0 field.
+func (r *mutationResolver) Create0(ctx context.Context, input model.EventInstanceCreateInput0) (*model.EventInstance0, error) {
+	panic(fmt.Errorf("not implemented: Create0 - create0"))
 }
 
-// Todos is the resolver for the todos field.
-func (r *queryResolver) Todos(ctx context.Context) ([]*model.Todo, error) {
-	panic(fmt.Errorf("not implemented: Todos - todos"))
+// Create1 is the resolver for the create1 field.
+func (r *mutationResolver) Create1(ctx context.Context, input model.EventInstanceCreateInput1) (*model.EventInstance1, error) {
+	panic(fmt.Errorf("not implemented: Create1 - create1"))
+}
+
+// Create2 is the resolver for the create2 field.
+func (r *mutationResolver) Create2(ctx context.Context, input model.EventInstanceCreateInput2) (*model.EventInstance2, error) {
+	panic(fmt.Errorf("not implemented: Create2 - create2"))
+}
+
+// Create3 is the resolver for the create3 field.
+func (r *mutationResolver) Create3(ctx context.Context, input model.EventInstanceCreateInput3) (*model.EventInstance3, error) {
+	panic(fmt.Errorf("not implemented: Create3 - create3"))
+}
+
+// Create4 is the resolver for the create4 field.
+func (r *mutationResolver) Create4(ctx context.Context, input model.EventInstanceCreateInput4) (*model.EventInstance4, error) {
+	panic(fmt.Errorf("not implemented: Create4 - create4"))
+}
+
+// Create5 is the resolver for the create5 field.
+func (r *mutationResolver) Create5(ctx context.Context, input model.EventInstanceCreateInput5) (*model.EventInstance5, error) {
+	panic(fmt.Errorf("not implemented: Create5 - create5"))
+}
+
+// Create6 is the resolver for the create6 field.
+func (r *mutationResolver) Create6(ctx context.Context, input model.EventInstanceCreateInput6) (*model.EventInstance6, error) {
+	panic(fmt.Errorf("not implemented: Create6 - create6"))
+}
+
+// Create7 is the resolver for the create7 field.
+func (r *mutationResolver) Create7(ctx context.Context, input model.EventInstanceCreateInput7) (*model.EventInstance7, error) {
+	panic(fmt.Errorf("not implemented: Create7 - create7"))
+}
+
+// Create8 is the resolver for the create8 field.
+func (r *mutationResolver) Create8(ctx context.Context, input model.EventInstanceCreateInput8) (*model.EventInstance8, error) {
+	panic(fmt.Errorf("not implemented: Create8 - create8"))
+}
+
+// Create9 is the resolver for the create9 field.
+func (r *mutationResolver) Create9(ctx context.Context, input model.EventInstanceCreateInput9) (*model.EventInstance9, error) {
+	panic(fmt.Errorf("not implemented: Create9 - create9"))
+}
+
+// EventInstances0 is the resolver for the eventInstances0 field.
+func (r *queryResolver) EventInstances0(ctx context.Context) ([]*model.EventInstance0, error) {
+	panic(fmt.Errorf("not implemented: EventInstances0 - eventInstances0"))
+}
+
+// EventInstances1 is the resolver for the eventInstances1 field.
+func (r *queryResolver) EventInstances1(ctx context.Context) ([]*model.EventInstance1, error) {
+	panic(fmt.Errorf("not implemented: EventInstances1 - eventInstances1"))
+}
+
+// EventInstances2 is the resolver for the eventInstances2 field.
+func (r *queryResolver) EventInstances2(ctx context.Context) ([]*model.EventInstance2, error) {
+	panic(fmt.Errorf("not implemented: EventInstances2 - eventInstances2"))
+}
+
+// EventInstances3 is the resolver for the eventInstances3 field.
+func (r *queryResolver) EventInstances3(ctx context.Context) ([]*model.EventInstance3, error) {
+	panic(fmt.Errorf("not implemented: EventInstances3 - eventInstances3"))
+}
+
+// EventInstances4 is the resolver for the eventInstances4 field.
+func (r *queryResolver) EventInstances4(ctx context.Context) ([]*model.EventInstance4, error) {
+	panic(fmt.Errorf("not implemented: EventInstances4 - eventInstances4"))
+}
+
+// EventInstances5 is the resolver for the eventInstances5 field.
+func (r *queryResolver) EventInstances5(ctx context.Context) ([]*model.EventInstance5, error) {
+	panic(fmt.Errorf("not implemented: EventInstances5 - eventInstances5"))
+}
+
+// EventInstances6 is the resolver for the eventInstances6 field.
+func (r *queryResolver) EventInstances6(ctx context.Context) ([]*model.EventInstance6, error) {
+	panic(fmt.Errorf("not implemented: EventInstances6 - eventInstances6"))
+}
+
+// EventInstances7 is the resolver for the eventInstances7 field.
+func (r *queryResolver) EventInstances7(ctx context.Context) ([]*model.EventInstance7, error) {
+	panic(fmt.Errorf("not implemented: EventInstances7 - eventInstances7"))
+}
+
+// EventInstances8 is the resolver for the eventInstances8 field.
+func (r *queryResolver) EventInstances8(ctx context.Context) ([]*model.EventInstance8, error) {
+	panic(fmt.Errorf("not implemented: EventInstances8 - eventInstances8"))
+}
+
+// EventInstances9 is the resolver for the eventInstances9 field.
+func (r *queryResolver) EventInstances9(ctx context.Context) ([]*model.EventInstance9, error) {
+	panic(fmt.Errorf("not implemented: EventInstances9 - eventInstances9"))
 }
 
 // Mutation returns MutationResolver implementation.

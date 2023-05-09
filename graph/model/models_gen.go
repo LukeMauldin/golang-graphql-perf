@@ -2,19 +2,227 @@
 
 package model
 
-type NewTodo struct {
-	Text   string `json:"text"`
-	UserID string `json:"userId"`
+import (
+	"github.com/99designs/gqlgen/graphql"
+)
+type Test1 int
+
+type EventInstance0 struct {
+	Title               string `json:"title"`
+	Description         string `json:"description"`
+	FromDate            string `json:"fromDate"`
+	ToDate              string `json:"toDate"`
+	StartTransitionMins int    `json:"startTransitionMins"`
+	EndTransitionMins   int    `json:"endTransitionMins"`
+	GuestMinCount       *int   `json:"guestMinCount,omitempty"`
+	GuestMaxCount       *int   `json:"guestMaxCount,omitempty"`
 }
 
-type Todo struct {
-	ID   string `json:"id"`
-	Text string `json:"text"`
-	Done bool   `json:"done"`
-	User *User  `json:"user"`
+type EventInstance1 struct {
+	Title               string `json:"title"`
+	Description         string `json:"description"`
+	FromDate            string `json:"fromDate"`
+	ToDate              string `json:"toDate"`
+	StartTransitionMins int    `json:"startTransitionMins"`
+	EndTransitionMins   int    `json:"endTransitionMins"`
+	GuestMinCount       *int   `json:"guestMinCount,omitempty"`
+	GuestMaxCount       *int   `json:"guestMaxCount,omitempty"`
 }
 
-type User struct {
-	ID   string `json:"id"`
-	Name string `json:"name"`
+type EventInstance2 struct {
+	Title               string `json:"title"`
+	Description         string `json:"description"`
+	FromDate            string `json:"fromDate"`
+	ToDate              string `json:"toDate"`
+	StartTransitionMins int    `json:"startTransitionMins"`
+	EndTransitionMins   int    `json:"endTransitionMins"`
+	GuestMinCount       *int   `json:"guestMinCount,omitempty"`
+	GuestMaxCount       *int   `json:"guestMaxCount,omitempty"`
+}
+
+type EventInstance3 struct {
+	Title               string `json:"title"`
+	Description         string `json:"description"`
+	FromDate            string `json:"fromDate"`
+	ToDate              string `json:"toDate"`
+	StartTransitionMins int    `json:"startTransitionMins"`
+	EndTransitionMins   int    `json:"endTransitionMins"`
+	GuestMinCount       *int   `json:"guestMinCount,omitempty"`
+	GuestMaxCount       *int   `json:"guestMaxCount,omitempty"`
+}
+
+type EventInstance4 struct {
+	Title               string `json:"title"`
+	Description         string `json:"description"`
+	FromDate            string `json:"fromDate"`
+	ToDate              string `json:"toDate"`
+	StartTransitionMins int    `json:"startTransitionMins"`
+	EndTransitionMins   int    `json:"endTransitionMins"`
+	GuestMinCount       *int   `json:"guestMinCount,omitempty"`
+	GuestMaxCount       *int   `json:"guestMaxCount,omitempty"`
+}
+
+type EventInstance5 struct {
+	Title               string `json:"title"`
+	Description         string `json:"description"`
+	FromDate            string `json:"fromDate"`
+	ToDate              string `json:"toDate"`
+	StartTransitionMins int    `json:"startTransitionMins"`
+	EndTransitionMins   int    `json:"endTransitionMins"`
+	GuestMinCount       *int   `json:"guestMinCount,omitempty"`
+	GuestMaxCount       *int   `json:"guestMaxCount,omitempty"`
+}
+
+type EventInstance6 struct {
+	Title               string `json:"title"`
+	Description         string `json:"description"`
+	FromDate            string `json:"fromDate"`
+	ToDate              string `json:"toDate"`
+	StartTransitionMins int    `json:"startTransitionMins"`
+	EndTransitionMins   int    `json:"endTransitionMins"`
+	GuestMinCount       *int   `json:"guestMinCount,omitempty"`
+	GuestMaxCount       *int   `json:"guestMaxCount,omitempty"`
+}
+
+type EventInstance7 struct {
+	Title               string `json:"title"`
+	Description         string `json:"description"`
+	FromDate            string `json:"fromDate"`
+	ToDate              string `json:"toDate"`
+	StartTransitionMins int    `json:"startTransitionMins"`
+	EndTransitionMins   int    `json:"endTransitionMins"`
+	GuestMinCount       *int   `json:"guestMinCount,omitempty"`
+	GuestMaxCount       *int   `json:"guestMaxCount,omitempty"`
+}
+
+type EventInstance8 struct {
+	Title               string `json:"title"`
+	Description         string `json:"description"`
+	FromDate            string `json:"fromDate"`
+	ToDate              string `json:"toDate"`
+	StartTransitionMins int    `json:"startTransitionMins"`
+	EndTransitionMins   int    `json:"endTransitionMins"`
+	GuestMinCount       *int   `json:"guestMinCount,omitempty"`
+	GuestMaxCount       *int   `json:"guestMaxCount,omitempty"`
+}
+
+type EventInstance9 struct {
+	Title               string `json:"title"`
+	Description         string `json:"description"`
+	FromDate            string `json:"fromDate"`
+	ToDate              string `json:"toDate"`
+	StartTransitionMins int    `json:"startTransitionMins"`
+	EndTransitionMins   int    `json:"endTransitionMins"`
+	GuestMinCount       *int   `json:"guestMinCount,omitempty"`
+	GuestMaxCount       *int   `json:"guestMaxCount,omitempty"`
+}
+
+type EventInstanceCreateInput0 struct {
+	Title               string                  `json:"title"`
+	Description         string                  `json:"description"`
+	FromDate            string                  `json:"fromDate"`
+	ToDate              string                  `json:"toDate"`
+	StartTransitionMins int                     `json:"startTransitionMins"`
+	EndTransitionMins   int                     `json:"endTransitionMins"`
+	GuestMinCount       graphql.Omittable[*int] `json:"guestMinCount,omitempty"`
+	GuestMaxCount       graphql.Omittable[*int] `json:"guestMaxCount,omitempty"`
+}
+
+type EventInstanceCreateInput1 struct {
+	Title               string                  `json:"title"`
+	Description         string                  `json:"description"`
+	FromDate            string                  `json:"fromDate"`
+	ToDate              string                  `json:"toDate"`
+	StartTransitionMins int                     `json:"startTransitionMins"`
+	EndTransitionMins   int                     `json:"endTransitionMins"`
+	GuestMinCount       graphql.Omittable[*int] `json:"guestMinCount,omitempty"`
+	GuestMaxCount       graphql.Omittable[*int] `json:"guestMaxCount,omitempty"`
+}
+
+type EventInstanceCreateInput2 struct {
+	Title               string                  `json:"title"`
+	Description         string                  `json:"description"`
+	FromDate            string                  `json:"fromDate"`
+	ToDate              string                  `json:"toDate"`
+	StartTransitionMins int                     `json:"startTransitionMins"`
+	EndTransitionMins   int                     `json:"endTransitionMins"`
+	GuestMinCount       graphql.Omittable[*int] `json:"guestMinCount,omitempty"`
+	GuestMaxCount       graphql.Omittable[*int] `json:"guestMaxCount,omitempty"`
+}
+
+type EventInstanceCreateInput3 struct {
+	Title               string                  `json:"title"`
+	Description         string                  `json:"description"`
+	FromDate            string                  `json:"fromDate"`
+	ToDate              string                  `json:"toDate"`
+	StartTransitionMins int                     `json:"startTransitionMins"`
+	EndTransitionMins   int                     `json:"endTransitionMins"`
+	GuestMinCount       graphql.Omittable[*int] `json:"guestMinCount,omitempty"`
+	GuestMaxCount       graphql.Omittable[*int] `json:"guestMaxCount,omitempty"`
+}
+
+type EventInstanceCreateInput4 struct {
+	Title               string                  `json:"title"`
+	Description         string                  `json:"description"`
+	FromDate            string                  `json:"fromDate"`
+	ToDate              string                  `json:"toDate"`
+	StartTransitionMins int                     `json:"startTransitionMins"`
+	EndTransitionMins   int                     `json:"endTransitionMins"`
+	GuestMinCount       graphql.Omittable[*int] `json:"guestMinCount,omitempty"`
+	GuestMaxCount       graphql.Omittable[*int] `json:"guestMaxCount,omitempty"`
+}
+
+type EventInstanceCreateInput5 struct {
+	Title               string                  `json:"title"`
+	Description         string                  `json:"description"`
+	FromDate            string                  `json:"fromDate"`
+	ToDate              string                  `json:"toDate"`
+	StartTransitionMins int                     `json:"startTransitionMins"`
+	EndTransitionMins   int                     `json:"endTransitionMins"`
+	GuestMinCount       graphql.Omittable[*int] `json:"guestMinCount,omitempty"`
+	GuestMaxCount       graphql.Omittable[*int] `json:"guestMaxCount,omitempty"`
+}
+
+type EventInstanceCreateInput6 struct {
+	Title               string                  `json:"title"`
+	Description         string                  `json:"description"`
+	FromDate            string                  `json:"fromDate"`
+	ToDate              string                  `json:"toDate"`
+	StartTransitionMins int                     `json:"startTransitionMins"`
+	EndTransitionMins   int                     `json:"endTransitionMins"`
+	GuestMinCount       graphql.Omittable[*int] `json:"guestMinCount,omitempty"`
+	GuestMaxCount       graphql.Omittable[*int] `json:"guestMaxCount,omitempty"`
+}
+
+type EventInstanceCreateInput7 struct {
+	Title               string                  `json:"title"`
+	Description         string                  `json:"description"`
+	FromDate            string                  `json:"fromDate"`
+	ToDate              string                  `json:"toDate"`
+	StartTransitionMins int                     `json:"startTransitionMins"`
+	EndTransitionMins   int                     `json:"endTransitionMins"`
+	GuestMinCount       graphql.Omittable[*int] `json:"guestMinCount,omitempty"`
+	GuestMaxCount       graphql.Omittable[*int] `json:"guestMaxCount,omitempty"`
+}
+
+type EventInstanceCreateInput8 struct {
+	Title               string                  `json:"title"`
+	Description         string                  `json:"description"`
+	FromDate            string                  `json:"fromDate"`
+	ToDate              string                  `json:"toDate"`
+	StartTransitionMins int                     `json:"startTransitionMins"`
+	EndTransitionMins   int                     `json:"endTransitionMins"`
+	GuestMinCount       graphql.Omittable[*int] `json:"guestMinCount,omitempty"`
+	GuestMaxCount       graphql.Omittable[*int] `json:"guestMaxCount,omitempty"`
+}
+
+type EventInstanceCreateInput9 struct {
+	Title               string                  `json:"title"`
+	Description         string                  `json:"description"`
+	FromDate            string                  `json:"fromDate"`
+	ToDate              string                  `json:"toDate"`
+	StartTransitionMins int                     `json:"startTransitionMins"`
+	EndTransitionMins   int                     `json:"endTransitionMins"`
+	GuestMinCount       graphql.Omittable[*int] `json:"guestMinCount,omitempty"`
+	GuestMaxCount       graphql.Omittable[*int] `json:"guestMaxCount,omitempty"`
 }

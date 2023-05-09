@@ -10,6 +10,8 @@ import (
 	"github.com/LukeMauldin/golang-graphql-perf/graph"
 )
 
+type Test3 int
+
 const defaultPort = "8080"
 
 func main() {
